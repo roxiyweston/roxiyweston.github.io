@@ -1,0 +1,22 @@
+
+    .float-image {
+        float: 15px;          /* This floats the image to the left side */
+        margin-right: 25px;   /* Adds space to the right side of the image */
+        width: 300px;         /* Sets a fixed width for the image */
+    }
+    body {
+        font-family: Trebuchet MS, sans-serif;     /* Sets the font for all text */
+        font-size: 18px;                    /* Sets a default font size */
+        color: #0d0d0d;                        /* Sets the color for all text */
+        line-height: 1.4;                   /* Improves readability with spacing */
+        margin: 0;
+        padding: 0;
+
+    div{
+        <class="content">
+        <img src="triplearchnight.jpg",alt="arch at night" class="float-image">  
+        
+  
+    }
+
+    
