@@ -1,0 +1,44 @@
+.image-container {
+    position: relative;                 /* Enables positioning for children */
+    width: 100%;                        /* Adjust width as needed */
+    max-width: 400px;                   /* Set a max width */
+}
+
+/* Style the image */
+.background-image {
+    width: 100%;                        /* Makes image fill the container */
+    height: auto;                       /* Maintains aspect ratio */
+}
+
+/* Style the overlay text */
+.overlay-text {
+    position: absolute;                 /* Positioning to overlay on image */
+    top: 55%;                           /* Centers text vertically */
+    left: 50%;                          /* Centers text horizontally */
+    transform: translate(-50%, -50%);   /* Adjusts for perfect centering */
+    color: rgb(113, 4, 4);                       /* Text color */
+    font-size: 24px;                    /* Text size */
+    font-weight: bold;                  /* Makes text bold */
+    text-align: center;                 /* Centers text */
+    background-color: rgba(145, 145, 145, 0.5); /* Optional background for contrast */
+    padding: 35px;                      /* Adds padding around text */
+    border-radius: 5px;                 /* Optional rounded corners */
+}
+.overlay-text {
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:crimson
+    font-size: 24px;
+    font-weight: bold;
+    text-align:picture-in-picture;
+    background-color: rgba (146, 145, 145, 0.5)
+}    
+.navBtn {
+    color:aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-size: larger;
+    font-weight:bold;
+    
+}
