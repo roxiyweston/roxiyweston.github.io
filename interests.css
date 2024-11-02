@@ -1,44 +1,53 @@
 .image-container {
     position: relative;                 /* Enables positioning for children */
-    width: 100%;                        /* Adjust width as needed */
-    max-width: 400px;                   /* Set a max width */
+    height: 100%;                        /* Adjust width as needed */
+    max-width: 400%;                   /* Set a max width */
 }
 
 /* Style the image */
 .background-image {
     width: 100%;                        /* Makes image fill the container */
     height: auto;                       /* Maintains aspect ratio */
+    
 }
 
 /* Style the overlay text */
 .overlay-text {
     position: absolute;                 /* Positioning to overlay on image */
-    top: 55%;                           /* Centers text vertically */
+    top: 45%;                           /* Centers text vertically */
     left: 50%;                          /* Centers text horizontally */
     transform: translate(-50%, -50%);   /* Adjusts for perfect centering */
-    color: rgb(113, 4, 4);                       /* Text color */
+    color: rgb(64, 3, 108);                       /* Text color */
     font-size: 24px;                    /* Text size */
     font-weight: bold;                  /* Makes text bold */
     text-align: center;                 /* Centers text */
-    background-color: rgba(145, 145, 145, 0.5); /* Optional background for contrast */
+    background-color: rgb(53, 101, 115); /* Optional background for contrast */
     padding: 35px;                      /* Adds padding around text */
-    border-radius: 5px;                 /* Optional rounded corners */
+    border-radius: 15px;                 /* Optional rounded corners */
+}
+.image-container { 
+ position: static;                 /* Enables positioning for children */
+ width: 100%;                        /* Adjust width as needed */
+ max-width: 100%;  
 }
 .overlay-text {
-    position: absolute;
-    top:30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color:crimson
-    font-size: 24px;
-    font-weight: bold;
-    text-align:picture-in-picture;
-    background-color: rgba (146, 145, 145, 0.5)
-}    
-.navBtn {
+    position: absolute;                /* Positioning to overlay on image */
+    top: 45%;                           /* Centers text vertically */
+    left: 85%;                          /* Centers text horizontally */
+    transform: translate(-50%, -10%);   /* Adjusts for perfect centering */
+    color: rgb(64, 3, 108);                       /* Text color */
+    font-size: 24px;                    /* Text size */
+    font-weight: bold;                  /* Makes text bold */
+    text-align: picture-in-picture;                 /* Centers text */
+    background-color: rgba(53,101,115); /* Optional background for contrast */
+    /* padding: 15px;                      /* Adds padding around text */
+    border-radius: 55px;                 Optional rounded corners */
+} 
+
+/* .navBtn {
     color:aliceblue;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:Trebuchet MS;
     font-size: larger;
     font-weight:bold;
-    
-}
+
+}  */
