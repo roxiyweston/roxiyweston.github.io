@@ -1,0 +1,43 @@
+
+.image-container {
+    position: flex;                 /* Enables positioning for children */
+    width: 90%;                        /* Adjust width as needed */
+    max-width: none;                   /* Set a max width */
+}
+
+/* Style the image */
+.background-image {
+    width: 75%;                        /* Makes image fill the container */
+    height: auto;                       /* Maintains aspect ratio */
+    padding: 15px;
+}
+
+/* Style the overlay text */
+.overlay-text {
+    position: absolute;                 /* Positioning to overlay on image */
+    top: 105%;                           /* Centers text vertically */
+    left: 50%;                          /* Centers text horizontally */
+    transform: translate(-50%, -50%);   /* Adjusts for perfect centering */
+    color: rgb(1, 49, 19);                       /* Text color */
+    font-size: 26px;                    /* Text size */
+    font-weight: bold;                  /* Makes text bold */
+    text-align: center;                 /* Centers text */
+    background-color: rgba(138, 138, 138, 0.5); /* Optional background for contrast */
+    padding: 35px;                      /* Adds padding around text */
+    border-radius: 15px;                 /* Optional rounded corners */
+    img { 
+        border-radius: 38px;
+}
+.image-container {
+    display: outside;
+    justify-content: space-evenly;
+    background-color: #f1820297;
+    color: #0b2435;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding: 13%;
+    width: 100%;
+    max: width 100px;
+    border-radius: 1px 1px 50px 50px;
+    /* transform: translate(-50%, -50%); */
+}
