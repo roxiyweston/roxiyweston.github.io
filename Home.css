@@ -1,0 +1,27 @@
+.image-container {
+    position: absolute;                 /* Enables positioning for children */
+    width: 100%;                        /* Adjust width as needed */
+    max-width: max-content;                   /* Set a max width */
+}
+
+/* Style the image */
+.background-image {
+    width: 100%;                        /* Makes image fill the container */
+    height: auto;                       /* Maintains aspect ratio */
+
+}
+
+/* Style the overlay text */
+.overlay-text {
+    position: absolute;              /* Positioning to overlay on image */
+    top: 117%;                           /* Centers text vertically */
+    left: 50%;                          /* Centers text horizontally */
+    transform: translate(-50%, -50%);   /* Adjusts for perfect centering */
+    color: rgb(68, 219, 123);                       /* Text color */
+    font-size: 24px;                    /* Text size */
+    font-weight: bold;                  /* Makes text bold */
+    text-align:left;                 /* Centers text */
+    background-color: rgba(80, 92, 80, 0.5); /* Optional background for contrast */
+    padding: 5px;                      /* Adds padding around text */
+    border-radius: 14px;                 /* Optional rounded corners */
+}
