@@ -1,0 +1,43 @@
+
+header {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    text-size: 36px;
+    display: absolute;
+    justify-content: space-evenly;
+    align-items: :left;
+    background-color: rgb(79, 13, 186);
+    color: #135fd2;
+    padding: 2%;
+    width: 100%;
+    max-width: 1217px;
+    border-radius: 18px 18px 10px 10px
+}
+
+.nav {
+    display: inside;
+    justify-content: space-evenly;
+    background-color: #04a8b7;
+    color: #011928;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding: 3%;
+    width: 95%;
+    max-width: 1195px;
+    border-radius: 10px 10px 18px 18px;
+}
+.overlay-text {
+    position: absolute;                 /* Positioning to overlay on image */
+    top: 97%;                           /* Centers text vertically */
+    left: 5%;                          /* Centers text horizontally */
+    transform:50 translate(50%, 50%);   /* Adjusts for perfect centering */
+    color: rgb(246, 246, 5);                       /* Text color */
+    font-size: 28px;                    /* Text size */
+    font-weight: bold;                  /* Makes text bold */
+    text-align: center;                 /* Centers text */
+    /* background-color: rgba(218, 247, 132, 0.195); Optional background for contrast */
+    padding: 30px;                      /* Adds padding around text */
+    border-radius: 25px;
+}
+body {
+    background-color:rgb(84, 235, 84)
+}
